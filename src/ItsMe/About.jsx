@@ -1,5 +1,4 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
 import web from '../Images/web.jpg';
 
 import Common from './Common';

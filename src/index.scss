@@ -3,9 +3,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
 
+$brand-colr:red;
 .navbar {
     background-color: #fff !important;
 }
@@ -31,7 +33,7 @@ a.navbar-brand {
 }
 
 a:hover {
-    color: #3498db !important;
+    color: $brand-colr !important;
 }
 
 .contact_div {
@@ -42,6 +44,10 @@ a:hover {
 footer p {
     padding: 0;
     margin: 0;
+}
+.card-img-top{
+    width:300px;
+    height:200px;
 }
 
 @media (max-width:991px) {
@@ -93,7 +99,7 @@ footer p {
 }
 
 #header .brand-name {
-    color: #3498db;
+    color: $brand-colr;
 }
 
 #header h2 {
@@ -109,14 +115,14 @@ footer p {
     padding: 10px 30px;
     border-radius: 50px;
     transition: 0.5s;
-    color: #3498db;
-    border: 2px solid #3498db;
+    color: $brand-colr;
+    border: 2px solid $brand-colr;
     text-decoration: none;
 }
 
 #header .btn-get-started:hover {
     color: #fff !important;
-    background-color: #3498db;
+    background-color: $brand-colr;
 }
 
 .header_img {

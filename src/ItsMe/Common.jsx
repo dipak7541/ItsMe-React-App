@@ -1,6 +1,5 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import homeimage from '../Images/homeimage.jpg'
 
 
 const Common = (props) => {
